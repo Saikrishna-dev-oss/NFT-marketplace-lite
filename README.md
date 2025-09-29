@@ -59,7 +59,7 @@ This project is part of the AlgoBharat Hack Series #2, organized by the Blockcha
    npm start
    ```
 
-## Future Enhancements
+## Future Enhancements `(keeps updating)`
 
 - IPFS integration for decentralized asset storage
 - Role-based access for creators and buyers
@@ -68,4 +68,4 @@ This project is part of the AlgoBharat Hack Series #2, organized by the Blockcha
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
