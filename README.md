@@ -38,8 +38,8 @@ This project is part of the AlgoBharat Hack Series #2, organized by the Blockcha
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nft-marketplace-lite.git
-   cd nft-marketplace-lite
+   gh repo clone Saikrishna-dev-oss/NFT-marketplace-lite
+   cd NFT-marketplace-lite
    ```
 
 2. Install dependencies:
