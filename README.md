@@ -35,22 +35,22 @@ By the end, you’ll have your own Advanced NFT Marketplace DApp live and ready 
 ```
   WATCH: Hostinger
   Get : Discount 75%
-  URL: (Click here)[https://www.hostg.xyz/aff_c?offer_id=6&aff_id=139422]
+  URL: https://www.hostg.xyz/aff_c?offer_id=6&aff_id=139422
 ```
 
 ### MULTI-CURRENCY ICO DAPP
 
 ```
   PROJECT: MULTI-CURRENCY ICO DAPP
-  Code:(click here)[https://www.theblockchaincoders.com/sourceCode/multi-currency-ico-dapp-using-next.js-solidity-and-wagmi]
-  VIDEO:(Click here)[https://youtu.be/j8NO8ea5zVo?si=jCmvfXmpmefwjhO5]
+  Code:https://www.theblockchaincoders.com/sourceCode/multi-currency-ico-dapp-using-next.js-solidity-and-wagmi
+  VIDEO:https://youtu.be/j8NO8ea5zVo?si=jCmvfXmpmefwjhO5
 ```
 
 #### Install Vs Code Editor
 
 ```
   GET: VsCode Editor
-  URL: (Click here)[https://code.visualstudio.com/download]
+  URL:https://code.visualstudio.com/download
 ```
 
 #### NodeJs & NPM Version
@@ -58,15 +58,15 @@ By the end, you’ll have your own Advanced NFT Marketplace DApp live and ready 
 ```
   NodeJs: 20 / LATEST
   NPM: 8.19.2
-  URL: (Click here)[https://nodejs.org/en/download]
-  Video: (Click here)[https://youtu.be/PIR0oBVowXU?si=9eNdR29u37F2ujJJ]
+  URL: https://nodejs.org/en/download
+  Video: https://youtu.be/PIR0oBVowXU?si=9eNdR29u37F2ujJJ
 ```
 
 #### FINAL SOURCE CODE
 
 ```
-  SETUP VIDEO: (Click here)[https://youtu.be/LatB3maYAnY?si=4Aj4bNCCBJrlsymS]
-  URL: (Click here)[https://www.theblockchaincoders.com/sourceCode/create-and-deploy-an-advanced-nft-marketplace-dapp-or-next.js-+-solidity-or-full-web3-project-any-blockchain]
+  SETUP VIDEO: https://youtu.be/LatB3maYAnY?si=4Aj4bNCCBJrlsymS
+  URL: https://www.theblockchaincoders.com/sourceCode/create-and-deploy-an-advanced-nft-marketplace-dapp-or-next.js-+-solidity-or-full-web3-project-any-blockchain
 ```
 
 All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
@@ -79,7 +79,7 @@ If you download the final source code then you can follow the following instruct
 
 ```
   OPEN: PINATA.CLOUD
-  URL:(Click here)[https://pinata.cloud/]
+  URL:https://pinata.cloud/
 ```
 
 #### reown
