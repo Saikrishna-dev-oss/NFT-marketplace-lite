@@ -1,11 +1,12 @@
 # Advanced NFT Marketplace DApp
+Advanced NFT Marketplace DApp is a full-stack decentralized application built with Next.js and Solidity. It allows users to mint, list, buy, and sell NFTs on Ethereum-compatible blockchains. The project integrates wallet connections, IPFS storage, and smart contract interactions for a seamless Web3 experience.
 
-🚀 Create & Deploy an Advanced NFT Marketplace DApp | Next.js + Solidity | Full Web3 Project - Any Blockchain
 ## GITHUB ACCOUNTS OF TEAMMTES
- (RISHI GHOSE)[https://github.com/rajghosh06-dev]
- (MANGALI SAI KRISHNA)[https://github.com/Saikrishna-dev-oss]
- (Enmula Srivishali Reddy)[https://github.com/sreevishali111]
- (MUNAVATH VIJAY ) [https://github.com/munavathvijay00-spec/NFT-MARKETPLACE-DAPP]
+- [RISHIT GHOSH](https://github.com/rajghosh06-dev)
+- [MANGALI SAI KRISHNA](https://github.com/Saikrishna-dev-oss)
+- [Enmula Srivishali Reddy](https://github.com/sreevishali111)
+- [MUNAVATH VIJAY ](https://github.com/munavathvijay00-spec)
+
 
 ## Instruction
 
