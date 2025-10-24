@@ -1,0 +1,315 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Dark mode variables */
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #374151;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #6b7280;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Custom animations */
+@keyframes shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 1.5s ease-in-out infinite;
+  background: linear-gradient(
+    to right,
+    #f6f7f8 0%,
+    #edeef1 20%,
+    #f6f7f8 40%,
+    #f6f7f8 100%
+  );
+  background-size: 800px 104px;
+}
+
+.dark .animate-shimmer {
+  background: linear-gradient(
+    to right,
+    #374151 0%,
+    #4b5563 20%,
+    #374151 40%,
+    #374151 100%
+  );
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #06b6d4);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Blur backdrop utility */
+.backdrop-blur-glass {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Custom input styles */
+.input-focus {
+  transition: all 0.2s ease-in-out;
+}
+
+.input-focus:focus {
+  transform: scale(1.02);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.dark .card-hover:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* NFT Card special effects */
+.nft-card {
+  background: linear-gradient(145deg, #ffffff, #f0f9ff);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.dark .nft-card {
+  background: linear-gradient(145deg, #1f2937, #111827);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.nft-card:hover {
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.15);
+}
+
+.dark .nft-card:hover {
+  border-color: rgba(59, 130, 246, 0.4);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.25);
+}
+
+/* Button glow effect */
+.btn-glow {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-glow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
+.btn-glow:hover::before {
+  left: 100%;
+}
+
+/* Loading skeleton */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+.dark .skeleton {
+  background: linear-gradient(90deg, #374151 25%, #4b5563 50%, #374151 75%);
+  background-size: 200% 100%;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glass {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Success state animations */
+.success-bounce {
+  animation: successBounce 0.6s ease-in-out;
+}
+
+@keyframes successBounce {
+  0%,
+  20%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  80% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Error state animations */
+.error-shake {
+  animation: errorShake 0.5s ease-in-out;
+}
+
+@keyframes errorShake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-5px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+
+/* Responsive design helpers */
+.container-custom {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-custom {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-custom {
+    padding: 0 3rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  * {
+    color-adjust: exact;
+  }
+}

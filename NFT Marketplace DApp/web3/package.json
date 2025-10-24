@@ -1,0 +1,33 @@
+{
+  "name": "nft-marketplace",
+  "version": "1.0.0",
+  "description": "Production-ready NFT Marketplace with multi-token support",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "node": "hardhat node",
+    "console": "hardhat console --network localhost",
+    "clean": "hardhat clean",
+    "size": "hardhat size-contracts",
+    "clear": "rm -rf node_modules package-lock.json deployments cache artifacts"
+  },
+  "keywords": [
+    "nft",
+    "marketplace",
+    "ethereum",
+    "solidity",
+    "hardhat",
+    "erc721",
+    "erc20"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "hardhat": "^2.22.0",
+    "ethers": "^6.14.0"
+  },
+  "dependencies": {}
+}
