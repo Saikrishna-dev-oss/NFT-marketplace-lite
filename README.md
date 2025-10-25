@@ -24,7 +24,7 @@ By the end, you’ll have your own live NFT Marketplace DApp ready to use!
 ## 🧰 Prerequisites
 
 ### 🛠 Install VS Code  
-- [**Click here**](https://code.visualstudio.com/download)
+- [**VS CODE (Microsoft)**](https://code.visualstudio.com/download)
 
 ### ⚙️ Node.js & NPM Setup  
 - [**Download Node.js v20**](https://nodejs.org/en/download)  
@@ -54,13 +54,42 @@ By the end, you’ll have your own live NFT Marketplace DApp ready to use!
 - [**Demo Video**](https://youtu.be/j8NO8ea5zVo?si=jCmvfXmpmefwjhO5)
 
 ---
+## 📁 Project Structure
 
-## 🧑‍💻 Authors
-
-- [Rishit Ghosh](https://github.com/rajghosh06-dev)  
-- [Mangali Sai Krishna](https://github.com/Saikrishna-dev-oss)  
-- [Enmula Srivishali Reddy](https://github.com/sreevishali111)  
-- [Munavath Vijay](https://github.com/munavathvijay00-spec)
+```plaintext
+nft-marketplace-dapp/
+├── components/
+│   ├── Layout/
+│   │   ├── Layout.js          # Main layout wrapper
+│   │   ├── Sidebar.js         # Navigation sidebar
+│   │   └── Header.js          # Top header with wallet connection
+│   ├── NFT/
+│   │   └── NFTCard.js         # Reusable NFT display component
+│   └── UI/
+│       ├── StatsCard.js       # Statistics display component
+│       └── LoadingSpinner.js  # Loading indicator
+├── lib/
+│   ├── contracts/
+│   │   ├── config.js          # Contract configuration
+│   │   ├── functions.js       # Contract interaction functions
+│   │   └── utils.js           # Utility functions
+│   ├── ipfs/
+│   │   └── pinata.js          # IPFS/Pinata integration
+│   └── wagmi.js               # Wagmi configuration
+├── pages/
+│   ├── index.js               # Marketplace homepage
+│   ├── create.js              # NFT creation page
+│   ├── my-nfts.js             # User's NFT collection
+│   ├── my-listings.js         # User's active listings
+│   ├── analytics.js           # Market analytics dashboard
+│   └── _app.js                # App configuration
+├── styles/
+│   └── globals.css            # Global styles and animations
+├── .env.local                 # Environment variables
+├── tailwind.config.js         # Tailwind configuration
+├── next.config.js             # Next.js configuration
+└── package.json               # Dependencies and scripts
+```
 
 ---
 
@@ -118,41 +147,12 @@ By the end, you’ll have your own live NFT Marketplace DApp ready to use!
 
 ---
 
-## 📁 Project Structure
 
-```plaintext
-nft-marketplace-dapp/
-├── components/
-│   ├── Layout/
-│   │   ├── Layout.js          # Main layout wrapper
-│   │   ├── Sidebar.js         # Navigation sidebar
-│   │   └── Header.js          # Top header with wallet connection
-│   ├── NFT/
-│   │   └── NFTCard.js         # Reusable NFT display component
-│   └── UI/
-│       ├── StatsCard.js       # Statistics display component
-│       └── LoadingSpinner.js  # Loading indicator
-├── lib/
-│   ├── contracts/
-│   │   ├── config.js          # Contract configuration
-│   │   ├── functions.js       # Contract interaction functions
-│   │   └── utils.js           # Utility functions
-│   ├── ipfs/
-│   │   └── pinata.js          # IPFS/Pinata integration
-│   └── wagmi.js               # Wagmi configuration
-├── pages/
-│   ├── index.js               # Marketplace homepage
-│   ├── create.js              # NFT creation page
-│   ├── my-nfts.js             # User's NFT collection
-│   ├── my-listings.js         # User's active listings
-│   ├── analytics.js           # Market analytics dashboard
-│   └── _app.js                # App configuration
-├── styles/
-│   └── globals.css            # Global styles and animations
-├── .env.local                 # Environment variables
-├── tailwind.config.js         # Tailwind configuration
-├── next.config.js             # Next.js configuration
-└── package.json               # Dependencies and scripts
-```
+## 🧑‍💻 Authors
+
+- [Rishit Ghosh](https://github.com/rajghosh06-dev)  
+- [Mangali Sai Krishna](https://github.com/Saikrishna-dev-oss)  
+- [Enmula Srivishali Reddy](https://github.com/sreevishali111)  
+- [Munavath Vijay](https://github.com/munavathvijay00-spec)
 
 ---
