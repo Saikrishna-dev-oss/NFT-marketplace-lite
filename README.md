@@ -20,40 +20,6 @@ By the end, you’ll have your own live NFT Marketplace DApp ready to use!
 > 💾 [**Download Final Source Code**](https://www.theblockchaincoders.com/sourceCode/create-and-deploy-an-advanced-nft-marketplace-dapp-or-next.js-+-solidity-or-full-web3-project-any-blockchain)
 
 ---
-
-## 🧰 Prerequisites
-
-### 🛠 Install VS Code  
-- [**VS CODE (Microsoft)**](https://code.visualstudio.com/download)
-
-### ⚙️ Node.js & NPM Setup  
-- [**Download Node.js v20**](https://nodejs.org/en/download)  
-- [**Watch Setup Guide**](https://youtu.be/PIR0oBVowXU?si=9eNdR29u37F2ujJJ)
-
----
-
-## 🧩 Additional Resources
-
-### 📦 Pinata IPFS  
-- [**Click here**](https://pinata.cloud/)
-
-### 🔗 Wallet Connect (Reown)  
-- [**Click here**](https://docs.reown.com/cloud/relay)
-
-### 📝 Formspree  
-- [**Click here**](https://formspree.io/)
-
-### ⚗️ Alchemy  
-- [**Click here**](https://www.alchemy.com/)
-
----
-
-## 💰 Multi-Currency ICO DApp
-
-- [**Project Code**](https://www.theblockchaincoders.com/sourceCode/multi-currency-ico-dapp-using-next.js-solidity-and-wagmi)  
-- [**Demo Video**](https://youtu.be/j8NO8ea5zVo?si=jCmvfXmpmefwjhO5)
-
----
 ## 📁 Project Structure
 
 ```plaintext
@@ -90,6 +56,40 @@ nft-marketplace-dapp/
 ├── next.config.js             # Next.js configuration
 └── package.json               # Dependencies and scripts
 ```
+
+---
+
+## 🧰 Prerequisites
+
+### 🛠 Install VS Code  
+- [**VS CODE (Microsoft)**](https://code.visualstudio.com/download)
+
+### ⚙️ Node.js & NPM Setup  
+- [**Download Node.js v20**](https://nodejs.org/en/download)  
+- [**Watch Setup Guide**](https://youtu.be/PIR0oBVowXU?si=9eNdR29u37F2ujJJ)
+
+---
+
+## 🧩 Additional Resources
+
+### 📦 Pinata IPFS  
+- [**Click here**](https://pinata.cloud/)
+
+### 🔗 Wallet Connect (Reown)  
+- [**Click here**](https://docs.reown.com/cloud/relay)
+
+### 📝 Formspree  
+- [**Click here**](https://formspree.io/)
+
+### ⚗️ Alchemy  
+- [**Click here**](https://www.alchemy.com/)
+
+---
+
+## 💰 Multi-Currency ICO DApp
+
+- [**Project Code**](https://www.theblockchaincoders.com/sourceCode/multi-currency-ico-dapp-using-next.js-solidity-and-wagmi)  
+- [**Demo Video**](https://youtu.be/j8NO8ea5zVo?si=jCmvfXmpmefwjhO5)
 
 ---
 
